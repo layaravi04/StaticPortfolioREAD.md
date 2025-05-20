@@ -1,0 +1,2 @@
+# StaticPortfolioREAD.md
+StaticPortfo
