@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laya Ravi's Personal Portfolio">
+    <title>Laya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Laya Ravi</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>Hi! I'm Laya, a passionate tech enthusiast and a creative mind who loves exploring the world of code. I love nature, food,writing,reading  and enjoying life to the fullest!</p>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project 1: Soil Moisture Monitoring System</h3>
+                    <p>A smart IoT project that measures soil moisture levels, ensuring efficient water usage in agriculture. Built with sensors and a user-friendly interface.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Tunnel Automation System</h3>
+                    <p>An innovative automation system designed for tunnels, providing enhanced safety, monitoring, and real-time control using sensor networks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formFeedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Laya Ravi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
